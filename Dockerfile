@@ -12,7 +12,7 @@ FROM nginx:1.13-alpine
 #   from https://github.com/nodejs/docker-node/blob/a7e88f1dd2102689180f485c51133212f45fa064/9/alpine/Dockerfile
 # --
 
-ENV NODE_VERSION 9.3.0
+ENV NODE_VERSION 9.11.1
 
 RUN addgroup -g 1000 node \
     && adduser -u 1000 -G node -s /bin/sh -D node \
